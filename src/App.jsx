@@ -50,7 +50,7 @@ function App() {
               >
                 <p className="text-lg">{item.task}</p>
                 <button
-                  className="text-xs"
+                  className="text-xs border-black border-2 p-1"
                   onClick={() => handleRemoveItem(item.id)}
                 >
                   {item.clean}
